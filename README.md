@@ -29,7 +29,7 @@ ___
 ### 1. Data Preprocessing
 
 - **Returns Calculation:**
-Daily percentage returns are calculated as: $ r_t = \frac{\text{Adj\_Close}(t) - \text{Adj\_Close}(t-1)}{\text{Adj\_Close}(t-1)}$
+Daily percentage returns are calculated as: $ r_t = \frac{Adj\_Close(t) - Adj\_Close(t-1)}{Adj\_Close(t-1)}$
 
 - **Cross-Sectional Median:**
 For each day, the median return across all tickers is calculated. Stocks are labeled as:
